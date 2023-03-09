@@ -11,17 +11,20 @@ h1 {
 }
 .seccion-titulo {
     font-size: 2rem;
-    padding: 15px 0;
+    padding-bottom: 15px;
     font-family:'Archivo Narrow', sans-serif ;
 }
 .seccion-descripcion {
     font-size: 1.2rem;
+    padding: 10px;
     color: #584e4e;
+    text-align: center;
 
 }
 
 .seccion-texto{
     font-size: 1.2rem;
+    padding: 15px  0 ;
 
 }
 .texto-negro {
@@ -41,6 +44,14 @@ h1 {
 .navbar-collapse {
     align-items: center;
     justify-content:space-between;
+}
+.navbar a {
+    font-size: 25px;
+
+}
+.navbar a {
+    font-size: 25px;
+
 }
 /* section hero*/
 .hero {
@@ -73,8 +84,8 @@ h1 {
     background-color: #f5f6f7;
 }
 .sobre-mi{
-    padding: 50px;
-    height: 400px;
+    padding: 20px;
+    height: 450px;
     
 }
 .sobre-mi .contenedor {
@@ -84,12 +95,13 @@ h1 {
 .img-perfil {
  width: 150px;
  border-radius: 50%;
- margin-top: -34%;
+ margin-top: -20%;
  border: solid black;
  
 }
 .seccion-texto {
     font-size: 1.2rem;
+    
    
 }
 /*experiencia*/
@@ -97,7 +109,13 @@ h1 {
     padding: 40px 40px 60px 40px;
 
 }
+.experiencia h2 {
+    text-align: center;
+}
 
+.experiencia h2 {
+    text-align: center;
+}
 .experiencia .columna{
     padding: 20px;
     border: 2px solid #8080804d;
@@ -115,7 +133,7 @@ h1 {
 .contenedor-titulo {
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: centerS;
+    text-align: center;
 }
 
 .exp-titulo {
@@ -138,6 +156,40 @@ h1 {
     padding: 10px 19px;
     border-radius: 50%;
 }
+/*estudios*/
+.estudios h3 {
+    font-size: 1,5rem;
+    font-weight: bold;
+
+}
+
+.estudios p {
+    font-size: 1,5rem;
+}
+
+.container-estudios{
+    border: 2px solid #8080804d;
+    border-radius: 10px;
+    padding: 20px;
+ transition:0.4s ease-in;
+ margin: 15px;
+} 
+ .año {
+    text-align: end;
+    font-weight: bold;
+     
+    }
+   
+.container-estudios:hover{
+    background-color:#1b1b32;
+    border-radius: 20px;
+    color: #fff;
+    border-left: 6px solid blue;
+    border-bottom: 5px solid blue;
+    
+}
+
+
 /*proyectos*/
 .proyectos-recientes {
     padding: 40px;
@@ -197,14 +249,20 @@ h1 {
 @media screen and (max-width:767px) {
     .navbar-brand {
         display: none;
+        
+        
     }
+   
     
+   
 }
 @media screen and (min-width:700px) {
     .hero-principal {
         max-width: 600px;
     }
 }
+
+/*animaciones*/
 
 
     
